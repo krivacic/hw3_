@@ -1,0 +1,6 @@
+align = sequence_alignment("sequences/prot-0018.fa","sequences/prot-0198.fa",-10,-1,matrix)
+print(align)
+neighbor(matrix)
+print(matrix)
+align = sequence_alignment("sequences/prot-0018.fa","sequences/prot-0198.fa",-10,-1,matrix)
+print(align)
